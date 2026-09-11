@@ -85,4 +85,10 @@ npm run watch     # 增量编译（开发调试用）
 
 ## 协议兼容
 
-扩展使用标准 LSP 协议（vscode-languageclient）与 tsp 后端通信，文档同步为全量模式（`textDocumentSync=1`）。tsp 冒烟测试：`compiler/lsp/lsp_smoke{1,2,3}.py`（握手 / 诊断 / hover 回环）。
+扩展使用标准 LSP 协议（vscode-languageclient）与 tsp 后端通信，文档同步为全量模式（`textDocumentSync=1`）。tsp 冒烟测试：`lsp_smoke{1,2,3}.py`（握手 / 诊断 / hover 回环，见 [tie-lang/tsp](https://github.com/tie-lang/tsp)）。
+
+## License
+
+本仓库按 **Tie Public License v2.0（TPL 2.0）** 授权发布（全文见 [LICENSE](LICENSE)）：你可自由使用、修改并分发本软件源码，包括用于商业产品，仅需保留版权声明并附本许可证。
+
+EN: This repository is released under the **Tie Public License v2.0 (TPL 2.0)** (full text in [LICENSE](LICENSE)): you may freely use, modify, and redistribute the source code, including in commercial products, provided you retain the copyright notice and a copy of the license.
