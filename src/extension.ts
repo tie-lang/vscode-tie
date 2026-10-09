@@ -68,7 +68,7 @@ class TieErrorHandler implements ErrorHandler {
                 `tie 语言服务器启动失败${detail}。建议：` +
                 '① 把 tie.lsp.command 设为 ["auto"]（自动探测 vendor/tsp.exe，' +
                 '推荐；旧版 Rust tie 路径已失效）；' +
-                '② 或设为 tsp.exe 绝对路径，如 ["REDACTED_LOCAL_PATH/tie-main/compiler/lsp/tsp.exe"]。' +
+                '② 或设为 tsp.exe 绝对路径，如 ["C:/path/to/tsp.exe"]。' +
                 '修改后请执行「重新加载窗口」。详见扩展 README 的「配置」一节。'
             );
         }

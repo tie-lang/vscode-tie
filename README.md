@@ -61,10 +61,10 @@ npx @vscode/vsce package
 - **自定义指向**：可配置为 tsp 绝对路径，例如：
 
   ```json
-  { "tie.lsp.command": ["REDACTED_LOCAL_PATH/tie/target/release/tsp.exe"] }
+  { "tie.lsp.command": ["C:/path/to/tsp.exe"] }
   ```
 
-  > 注意：旧版 Rust tie 的路径（如 `REDACTED_LOCAL_PATH/tie/target/release/tie.exe`）已失效。
+  > 注意：旧版 Rust tie 的路径（旧版 Rust tie 安装路径）已失效。
   > 若配置的路径不存在，扩展会自动回退到自动探测并输出警告。
   > 修改配置后请执行「重新加载窗口」（`Developer: Reload Window`）。
 
