@@ -4,3 +4,6 @@ out/
 *.vsix
 
 # VS Code 调试配置（launch.json/tasks.json）入库，供 F5 开发调试使用
+# tpkg 规范
+target/
+_local_only/
